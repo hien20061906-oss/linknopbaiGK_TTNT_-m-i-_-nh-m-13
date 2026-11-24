@@ -1,0 +1,10 @@
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\backend.py:394: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:252.)
+  return torch.tensor(xs, dtype=torch.float), torch.tensor(y, dtype=torch.float)
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\backend.py:420: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  all_predicted_probs = [sftmax(torch.tensor(i)) for i in all_predicted]
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\work\pylibs\torch\nn\modules\module.py:1787: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Alphabet: abcdefghijklmnopqrstuvwxyzáäèéêëíïñóöúüąćęłńśźż
+
+dev: 459/500 (91.80%)
+test: 452/500 (90.40%)

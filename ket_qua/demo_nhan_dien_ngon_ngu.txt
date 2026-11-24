@@ -1,0 +1,6 @@
+hola → Finnish (điểm softmax 73.1%)
+kiitos → Finnish (điểm softmax 99.0%)
+paleis → Dutch (điểm softmax 76.3%)
+cześć → Polish (điểm softmax 100.0%)
+hello → Finnish (điểm softmax 70.7%)
+'abc123' → Từ trống hoặc chứa ký tự ngoài bảng chữ: ['1', '2', '3']

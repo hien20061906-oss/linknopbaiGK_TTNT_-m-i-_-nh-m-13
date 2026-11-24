@@ -1,0 +1,7 @@
+{
+  "convolution_rectangles_values_and_gradients": true,
+  "rnn_zero_padding_keeps_output": true,
+  "q3_q5_shapes_and_gradients": true,
+  "attention_reference_gradients_and_causality": true,
+  "no_unimplemented_pass": true
+}

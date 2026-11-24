@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "questions": [
+    {
+      "question": "q1",
+      "score": 5,
+      "maximum": 5,
+      "process_exit_code": 0
+    },
+    {
+      "question": "q2",
+      "score": 5,
+      "maximum": 5,
+      "process_exit_code": 0
+    },
+    {
+      "question": "q3",
+      "score": 5,
+      "maximum": 5,
+      "process_exit_code": 0
+    },
+    {
+      "question": "q4",
+      "score": 5,
+      "maximum": 5,
+      "process_exit_code": 0
+    },
+    {
+      "question": "q5",
+      "score": 3,
+      "maximum": 3,
+      "process_exit_code": 0
+    },
+    {
+      "question": "q6",
+      "score": 2,
+      "maximum": 2,
+      "process_exit_code": 0
+    }
+  ],
+  "total": 25,
+  "maximum": 25
+}

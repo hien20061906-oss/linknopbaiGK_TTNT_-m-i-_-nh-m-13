@@ -1,0 +1,22 @@
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q2 với seed 42.
+
+Question q2
+===========
+*** q2) check_regression
+Your final loss is: 0.003010
+*** PASS: check_regression
+
+### Question q2: 5/5 ###
+
+Finished at 8:42:54
+
+Provisional grades
+==================
+Question q2: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+

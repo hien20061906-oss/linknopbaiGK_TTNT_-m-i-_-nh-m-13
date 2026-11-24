@@ -1,0 +1,19 @@
+{
+  "question": "q5",
+  "seed": 42,
+  "torch": "2.15.0+cpu",
+  "numpy": "1.26.4",
+  "seconds": 5.6544649000279605,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 2.025261402130127,
+      "dev_accuracy": 0.72
+    },
+    {
+      "epoch": 2,
+      "loss": 1.240542471408844,
+      "dev_accuracy": 0.86
+    }
+  ]
+}

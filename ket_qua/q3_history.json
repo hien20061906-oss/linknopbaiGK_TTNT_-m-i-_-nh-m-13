@@ -1,0 +1,59 @@
+{
+  "question": "q3",
+  "seed": 42,
+  "torch": "2.15.0+cpu",
+  "numpy": "1.26.4",
+  "seconds": 62.953456399962306,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.3583517255509893,
+      "dev_accuracy": 0.9474
+    },
+    {
+      "epoch": 2,
+      "loss": 0.15844121722504498,
+      "dev_accuracy": 0.9586
+    },
+    {
+      "epoch": 3,
+      "loss": 0.10979039531822006,
+      "dev_accuracy": 0.9692
+    },
+    {
+      "epoch": 4,
+      "loss": 0.08121042293651651,
+      "dev_accuracy": 0.971
+    },
+    {
+      "epoch": 5,
+      "loss": 0.06393368128687144,
+      "dev_accuracy": 0.9712
+    },
+    {
+      "epoch": 6,
+      "loss": 0.05014828751872604,
+      "dev_accuracy": 0.9776
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0410127959617724,
+      "dev_accuracy": 0.9766
+    },
+    {
+      "epoch": 8,
+      "loss": 0.032912812992775195,
+      "dev_accuracy": 0.9794
+    },
+    {
+      "epoch": 9,
+      "loss": 0.026603608643636107,
+      "dev_accuracy": 0.9786
+    },
+    {
+      "epoch": 10,
+      "loss": 0.021506989501067438,
+      "dev_accuracy": 0.9802
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q1 với seed 42.
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Sanity checking perceptron weight updates...
+Sanity checking complete. Now training perceptron
+*** PASS: check_perceptron
+
+### Question q1: 5/5 ###
+
+Finished at 8:42:39
+
+Provisional grades
+==================
+Question q1: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+

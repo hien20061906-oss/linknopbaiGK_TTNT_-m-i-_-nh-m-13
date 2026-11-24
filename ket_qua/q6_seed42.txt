@@ -1,0 +1,21 @@
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q6 với seed 42.
+
+Question q6
+===========
+*** q6) check_attention
+*** PASS: check_attention
+
+### Question q6: 2/2 ###
+
+Finished at 8:45:34
+
+Provisional grades
+==================
+Question q6: 2/2
+------------------
+Total: 2/2
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+

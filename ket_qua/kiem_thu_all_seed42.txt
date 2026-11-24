@@ -1,0 +1,188 @@
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q1 với seed 42.
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Sanity checking perceptron weight updates...
+Sanity checking complete. Now training perceptron
+*** PASS: check_perceptron
+
+### Question q1: 5/5 ###
+
+Finished at 22:15:03
+
+Provisional grades
+==================
+Question q1: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q2 với seed 42.
+
+Question q2
+===========
+*** q2) check_regression
+Your final loss is: 0.003010
+*** PASS: check_regression
+
+### Question q2: 5/5 ###
+
+Finished at 22:15:18
+
+Provisional grades
+==================
+Question q2: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q3 với seed 42.
+
+Question q3
+===========
+*** q3) check_digit_classification
+Q3 epoch 01 | loss=0.3584 | dev_accuracy=94.74%
+Q3 epoch 02 | loss=0.1584 | dev_accuracy=95.86%
+Q3 epoch 03 | loss=0.1098 | dev_accuracy=96.92%
+Q3 epoch 04 | loss=0.0812 | dev_accuracy=97.10%
+Q3 epoch 05 | loss=0.0639 | dev_accuracy=97.12%
+Q3 epoch 06 | loss=0.0501 | dev_accuracy=97.76%
+Q3 epoch 07 | loss=0.0410 | dev_accuracy=97.66%
+Q3 epoch 08 | loss=0.0329 | dev_accuracy=97.94%
+Q3 epoch 09 | loss=0.0266 | dev_accuracy=97.86%
+Q3 epoch 10 | loss=0.0215 | dev_accuracy=98.02%
+Your final test set accuracy is: 97.940000%
+*** PASS: check_digit_classification
+
+### Question q3: 5/5 ###
+
+Finished at 22:16:28
+
+Provisional grades
+==================
+Question q3: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q4 với seed 42.
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\backend.py:392: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:252.)
+  return torch.nn.functional.pad(torch.tensor(xs, dtype=torch.float),(0,0,0,0,0,10 - len(xs))), torch.tensor(y, dtype=torch.float)
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\autograder.py:517: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_xs = torch.tensor(inp_xs[:word_length], requires_grad=True)
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\autograder.py:536: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_xs = torch.tensor(inp_xs[:word_length], requires_grad=True)
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\backend.py:420: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  all_predicted_probs = [sftmax(torch.tensor(i)) for i in all_predicted]
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\work\pylibs\torch\nn\modules\module.py:1787: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+
+Question q4
+===========
+*** q4) check_lang_id
+Alphabet: abcdefghijklmnopqrstuvwxyzáäèéêëíïñóöúüąćęłńśźż
+
+Q4 epoch 01 | loss=1.1009 | dev_accuracy=63.40%
+Q4 epoch 02 | loss=0.7358 | dev_accuracy=75.20%
+Q4 epoch 03 | loss=0.5263 | dev_accuracy=79.60%
+Q4 epoch 04 | loss=0.4122 | dev_accuracy=87.00%
+Q4 epoch 05 | loss=0.3430 | dev_accuracy=80.40%
+Q4 epoch 06 | loss=0.3187 | dev_accuracy=86.20%
+Q4 epoch 07 | loss=0.2903 | dev_accuracy=87.00%
+Q4 epoch 08 | loss=0.2581 | dev_accuracy=88.00%
+Q4 epoch 09 | loss=0.2249 | dev_accuracy=89.20%
+Q4 epoch 10 | loss=0.2115 | dev_accuracy=88.40%
+Q4 epoch 11 | loss=0.1735 | dev_accuracy=87.60%
+Q4 epoch 12 | loss=0.1753 | dev_accuracy=90.00%
+Q4 epoch 13 | loss=0.1424 | dev_accuracy=89.80%
+Q4 epoch 14 | loss=0.1253 | dev_accuracy=90.20%
+Q4 epoch 15 | loss=0.1161 | dev_accuracy=87.00%
+Q4 epoch 16 | loss=0.1040 | dev_accuracy=90.80%
+Q4 epoch 17 | loss=0.1156 | dev_accuracy=88.00%
+Q4 epoch 18 | loss=0.1307 | dev_accuracy=83.40%
+Q4 epoch 19 | loss=0.1075 | dev_accuracy=89.80%
+Q4 epoch 20 | loss=0.0759 | dev_accuracy=90.60%
+Your final test set accuracy is: 89.200000%
+*** PASS: check_lang_id
+
+### Question q4: 5/5 ###
+
+Finished at 22:17:22
+
+Provisional grades
+==================
+Question q4: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q5 với seed 42.
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\autograder.py:574: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_x = torch.tensor(dataset[:batch_size]['x'], dtype=torch.float, requires_grad=True)
+D:\chatgpt\2026-10-31\link-project-references-https-inst-eecs-2\outputs\Tuan8_11_Nhom13\cong_cu\autograder.py:575: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_y = torch.tensor(dataset[:batch_size]['label'], dtype=torch.float, requires_grad=True)
+
+Question q5
+===========
+*** q5) check_convolution
+Q5 epoch 01 | loss=2.0253 | dev_accuracy=72.00%
+Q5 epoch 02 | loss=1.2405 | dev_accuracy=86.00%
+Your final test set accuracy is: 94.000000%
+*** PASS: check_convolution
+
+### Question q5: 3/3 ###
+
+Finished at 22:17:45
+
+Provisional grades
+==================
+Question q5: 3/3
+------------------
+Total: 3/3
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q6 với seed 42.
+
+Question q6
+===========
+*** q6) check_attention
+*** PASS: check_attention
+
+### Question q6: 2/2 ###
+
+Finished at 22:17:54
+
+Provisional grades
+==================
+Question q6: 2/2
+------------------
+Total: 2/2
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+
+TOTAL: 25/25

@@ -1,0 +1,33 @@
+Đang nạp NumPy và PyTorch... Vui lòng chờ, không bấm Ctrl+C.
+Đã nạp thư viện. Bắt đầu kiểm tra Q3 với seed 42.
+
+Question q3
+===========
+*** q3) check_digit_classification
+Q3 epoch 01 | loss=0.3584 | dev_accuracy=94.74%
+Q3 epoch 02 | loss=0.1584 | dev_accuracy=95.86%
+Q3 epoch 03 | loss=0.1098 | dev_accuracy=96.92%
+Q3 epoch 04 | loss=0.0812 | dev_accuracy=97.10%
+Q3 epoch 05 | loss=0.0639 | dev_accuracy=97.12%
+Q3 epoch 06 | loss=0.0501 | dev_accuracy=97.76%
+Q3 epoch 07 | loss=0.0410 | dev_accuracy=97.66%
+Q3 epoch 08 | loss=0.0329 | dev_accuracy=97.94%
+Q3 epoch 09 | loss=0.0266 | dev_accuracy=97.86%
+Q3 epoch 10 | loss=0.0215 | dev_accuracy=98.02%
+Your final test set accuracy is: 97.940000%
+*** PASS: check_digit_classification
+
+### Question q3: 5/5 ###
+
+Finished at 22:18:15
+
+Provisional grades
+==================
+Question q3: 5/5
+------------------
+Total: 5/5
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+Test Q3 (MNIST): 4897/5000 = 97.94%

@@ -1,0 +1,17 @@
+{
+  "rule": "Screen four configurations on DEV; repeat chosen configuration with three independent random seeds; select best DEV checkpoint among repetitions; test is never used for model selection.",
+  "chosen_config": {
+    "hidden": 192,
+    "lr": 0.002
+  },
+  "chosen_checkpoint": "h192_lr0.0020_s42.pt",
+  "chosen_seed": 42,
+  "chosen_dev_accuracy": 0.918,
+  "repeat_dev_mean": 0.9086666666666666,
+  "repeat_dev_std": 0.008326663997864539,
+  "train_size": 17500,
+  "dev_size": 500,
+  "test_size": 500,
+  "torch_version": "2.10.0+cpu",
+  "threads": 2
+}
