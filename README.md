@@ -8,7 +8,7 @@ Bản tích hợp Q1–Q6. Người 1 phụ trách Q1/Q2/Q6, Người 2 phụ tr
 |---|---|
 | `models.py` | Định nghĩa mô hình Q1–Q6. |
 | `train.py` | Huấn luyện các mô hình Q1–Q5. |
-| `losses.py` | Hàm tính sai số cho Q3–Q5. |
+| `losses.py` | Hàm tính sai số cho Q2–Q5. |
 | `chay_kiem_thu.py` | Chạy bộ chấm, lưu kết quả và tạo biểu đồ khi chọn tùy chọn tương ứng. |
 | `demo_q1_q2_q6.py` | Minh họa Perceptron, hồi quy hàm sin và Attention. |
 | `demo_nhan_dien_ngon_ngu.py` | Nhập từ và xem ngôn ngữ Q4 dự đoán. |
@@ -21,7 +21,7 @@ Các tên `models.py`, `train.py`, `losses.py`, `autograder.py` và `backend.py`
 
 ## Chạy trên Windows
 
-Mở thư mục này trong VS Code, rồi mở Terminal. Đã kiểm tra trên Python 3.12, PyTorch 2.15.0+cpu, NumPy 1.26.4, Matplotlib 3.11.2, CPU 2 luồng. Nếu tạo môi trường mới, chạy:
+Mở thư mục này trong VS Code, rồi mở Terminal. Các lệnh dưới đây tạo môi trường Python riêng và cài thư viện theo `requirements.txt`:
 
 ```powershell
 python -m venv .venv
@@ -59,4 +59,4 @@ python chay_kiem_thu.py q5 --seed 42 --phan-tich
 - Q5 học 200 ảnh. Backend Berkeley lấy dev/test từ chính 200 ảnh này, nên điểm benchmark không ước lượng được kết quả trên ảnh mới. Kiểm tra thêm dùng tập `test_images` chính thức của MNIST, tách khỏi dữ liệu Q5 dùng để học và chọn trọng số.
 - Điểm trong `tong_hop_kiem_thu.json` là điểm bộ kiểm thử Berkeley.
 
-ZIP bàn giao gồm mã nguồn, báo cáo và kết quả. Dữ liệu, trọng số cục bộ, môi trường Python và cache được loại khi đóng gói. Khi nộp, dùng mẫu LaTeX của lớp và thêm tên thành viên cùng liên kết GitHub thật vào phần Tóm tắt. Nguồn mã khung là CS188 Fall 2025 Project 5.
+ZIP bàn giao gồm mã nguồn, báo cáo và kết quả. Dữ liệu, trọng số cục bộ, môi trường Python và cache được loại khi đóng gói. Báo cáo dùng mẫu LaTeX của lớp; phần Tóm tắt đã có liên kết GitHub của nhóm. Nguồn mã khung là CS188 Fall 2025 Project 5.
